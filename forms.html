@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Discussion Forum</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <form id="signupForm">
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email"  required><br/><br/>
+    <input type="password" id="password" name="password" required/><br/>
+    <button type="button" onclick="sendOTP()">Send OTP</button>
+  </form>
+
+  <form id="verifyForm" style="display: none;">
+    <label for="otp">Enter OTP:</label>
+    <input type="text" id="otp" name="otp" required>
+    <button type="button" onclick="verifyOTP()">Verify</button>
+  </form>
+
+  <form id="postForm" style="display: none;">
+    <label for="username">Username:</label>
+    <input type="text" id="username" name="username" required>
+    <label for="postText">Post:</label>
+    <textarea id="postText" name="postText" required></textarea>
+    <button type="button" onclick="createPost()">Create Post</button>
+  </form>
+
+  <script src="script.js"></script>
+</body>
+</html>

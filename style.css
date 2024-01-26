@@ -1,0 +1,25 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    color: white;
+    background-color: black;
+}
+form
+{
+    margin-top: 130px;
+}
+p {
+    font-size: 10px;
+    border: 2px solid black;
+    padding: 10px;
+}
+form {
+    margin-top: 90px;
+    margin: 20px;
+}
+  
+button {
+    padding: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+}
